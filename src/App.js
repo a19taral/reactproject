@@ -1,21 +1,20 @@
 import React, { Component } from "react";
 import Navigation from "./components/Navigation/Navigation";
+import Logo from "./components/Logo/Logo";
 import "./App.css";
 
 function App() {
   //render();
-  {
-    return (
-      <div className="App">
-        <Navigation />
 
-        {/* 
-    <Logo />
+  return (
+    <div className="App">
+      <Navigation />
+      <Logo />
+      {/* 
     <ImageLinkForm /> 
     <FaceRecognition /> */}
-      </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;
